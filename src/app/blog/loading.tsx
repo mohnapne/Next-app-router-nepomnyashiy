@@ -2,9 +2,9 @@ import { FC } from 'react';
 // import cn from 'classnames'
 // import styles from './loading.module.css'
 
-interface Iloading { }
 
-const loading: FC<Iloading> = ({ }) => {
+
+const loading: FC = () => {
   // const dispatch = useAppDispatch()
   return (
     <div>

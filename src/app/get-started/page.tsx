@@ -8,9 +8,8 @@ export const metadata:Metadata = {
   title: "Get started | Next App"
 }
 
-interface Ipage { }
 
-const GetStarted: FC<Ipage> = ({ }) => {
+const GetStarted: FC = () => {
   // const dispatch = useAppDispatch()
   return (
     <div className="bg-white w-[100%]">

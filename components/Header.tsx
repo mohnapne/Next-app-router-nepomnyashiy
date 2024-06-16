@@ -3,9 +3,8 @@ import { FC } from 'react';
 // import cn from 'classnames'
 // import styles from './Header.module.css'
 
-interface IHeader { }
 
-const Header: FC<IHeader> = ({ }) => {
+const Header: FC = ({ }) => {
   // const dispatch = useAppDispatch()
   return (
     <header>

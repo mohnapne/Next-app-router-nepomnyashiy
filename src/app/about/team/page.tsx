@@ -2,9 +2,8 @@ import { FC } from 'react';
 // import cn from 'classnames'
 // import styles from './page.module.css'
 
-interface Ipage { }
 
-const Team: FC<Ipage> = ({ }) => {
+const Team: FC = ({ }) => {
   // const dispatch = useAppDispatch()
   return (
     <div>

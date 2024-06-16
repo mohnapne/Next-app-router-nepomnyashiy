@@ -2,9 +2,9 @@ import { FC } from 'react';
 // import cn from 'classnames'
 // import styles from './Footer.module.css'
 
-interface IFooter { }
 
-const Footer: FC<IFooter> = ({ }) => {
+
+const Footer: FC = () => {
   // const dispatch = useAppDispatch()
   return (
     <footer>

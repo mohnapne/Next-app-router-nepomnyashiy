@@ -2,9 +2,7 @@ import { FC } from 'react';
 // import cn from 'classnames'
 // import styles from './Contact.module.css'
 
-interface IContact { }
-
-const Contact: FC<IContact> = ({ }) => {
+const Contact: FC = () => {
   // const dispatch = useAppDispatch()
   return (
     <div>

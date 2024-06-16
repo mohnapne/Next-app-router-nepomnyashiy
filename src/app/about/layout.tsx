@@ -3,9 +3,6 @@ import { FC } from 'react';
 // import cn from 'classnames'
 // import styles from './layouts.module.css'
 
-interface Ilayouts {
-
-}
 
 export default function AboutLayout({
   children,
