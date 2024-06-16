@@ -1,0 +1,64 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(234, 243, 255);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 1000;
+}
+
+li {
+  list-style: disc;
+}
+
+main>div {
+  flex-grow: 0;
+  align-self: flex-start;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px; /* Set the thickness to a thin value, e.g., 1px */
+
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+
+footer {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
