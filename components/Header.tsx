@@ -4,7 +4,7 @@ import { FC } from 'react';
 // import styles from './Header.module.css'
 
 
-const Header: FC = ({ }) => {
+const Header: FC = () => {
   // const dispatch = useAppDispatch()
   return (
     <header>

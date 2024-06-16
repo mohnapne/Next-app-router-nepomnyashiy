@@ -3,9 +3,11 @@ import { FC } from 'react';
 // import cn from 'classnames'
 // import styles from './error.module.css'
 
+interface Ierror {
+  error: Error;
+}
 
-
-const error: FC = () => {
+const error: FC<Ierror> = ({ error }) => {
   // const dispatch = useAppDispatch()
   return (
     <div>
